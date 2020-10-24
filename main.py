@@ -401,10 +401,12 @@ def main():
     key = config['DEFAULT']['Key']
     global database
     database = config['DEFAULT']['DBName']
-
+    apitoken = config['DEFAULT']['APIToken']
+    
     print("user", user)
     print("key", key)
     print("dbname", database)
+    print("apitoken", apitoken)
 
     global tStartWaterInterruption
     tStartWaterInterruption = datetime(2020, 10, 5, 19, 0, 0)  # 3 horus due to timezone
@@ -474,7 +476,7 @@ def main():
     dBlockLords[30] = 'Marcelo Rodrigues Bueno'
 
     # initialize dispatcher
-    updater = Updater('1375319606:AAG92HEzTOgu1ixQ1W5sADAtwOLNHY2WQJU', use_context=True)
+    updater = Updater(apitoken, use_context=True)
     dispatcher = updater.dispatcher
 
     # initialize /start handler
