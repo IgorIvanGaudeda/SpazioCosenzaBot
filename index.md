@@ -23,7 +23,7 @@ No aplicativo do Telegram, procure por SpazioCosenzaBot na busca de contatos. Se
 em algum grupo, ele poderá ser usado mencionando-o através de @SpazioCosenzaBot.
 
 
-![](gif/FindSpazioCosenzaBot.gif)
+![](FindSpazioCosenzaBot.gif)
 
 
 ## Como ser verificado
@@ -35,7 +35,7 @@ Para ter acesso a funcionalidade mais específicas ao condomínio, é necessári
 - O síndico do seu bloco (caso não saiba deverá procurar no App Vida de Síndico)
 
 
-![](gif/StartCosenzaBot.gif)
+![](StartCosenzaBot.gif)
 
 
 Ao fim da verificação, se der tudo certo, futuramente você poderá acessar comandos restrito a 
