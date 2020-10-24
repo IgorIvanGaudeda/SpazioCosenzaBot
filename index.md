@@ -1,37 +1,49 @@
-## Welcome to GitHub Pages
+# SpazioCozenzaBot
+Bot do Telegram para o condomínio Spazio Cosenza de Curitiba, Brasil.
+Este robô tem o intuito de ser uma interface fácil e prática para os moradores interagirem com o 
+dia-a-dia do condomínio.
 
-You can use the [editor on GitHub](https://github.com/IgorIvanGaudeda/SpazioCosenzaBot/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+O Bot possui a função de privacidade de grupos ativada, ou seja, se ele for 
+adicionado em algum grupo, só lerá as mensagens enviadas diretamente para ele.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+***
 
-### Markdown
+## Comandos disponíveis
+- **/start**: inicia uma conversa com o bot.
+- **/verificar**: inicia a verificação do seu usuário como morador.
+- **/sair**: caso você não queira mais ser um usuário verificado, esse comando irá apagar seus 
+dados armazenados pelo robô.
+- **/temagua**: informa se estamos com o abastecimento de água interrompido devido ao racionamento.
+- **/ajuda**: exibe uma mensagem para ajudar no uso do bot.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+***
 
-```markdown
-Syntax highlighted code block
+## Como encontrar o bot:
+No aplicativo do Telegram, procure por SpazioCosenzaBot na busca de contatos. Se o bot estiver 
+em algum grupo, ele poderá ser usado mencionando-o através de @SpazioCosenzaBot.
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+![](gif/FindSpazioCosenzaBot.gif)
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+## Como ser verificado
+Para ter acesso a funcionalidade mais específicas ao condomínio, é necessário verificar que você 
+é de fato um morador através de algumas perguntas. O processo é rápido e você precisará informar:
+- Bloco
+- Apartamento
+- Vaga de garagem (opcional)
+- O síndico do seu bloco (caso não saiba deverá procurar no App Vida de Síndico)
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+![](gif/StartCosenzaBot.gif)
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/IgorIvanGaudeda/SpazioCosenzaBot/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Ao fim da verificação, se der tudo certo, futuramente você poderá acessar comandos restrito a 
+moradores.
 
-### Support or Contact
+***
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Observações:
+Este robô é um projeto pessoal, não sou pago para desenvolver, não cobro nada pela sua utilização. 
+Caso tenha dúvidas ou sugestões (são bem vindas!), favor enviar um e-mail para:
+igorgaudeda @ live.com
